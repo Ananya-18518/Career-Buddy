@@ -1,0 +1,81 @@
+.notes-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.all-saved-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;          /* black text */
+  align-self: flex-end; /* right side */
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.note-box {
+  background: #fff;     /* white background */
+  color: #000;          /* black text */
+  padding: 20px;
+  width: 75%;           /* more than half of page */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.note-input,
+.note-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #f9f9f9;
+  color: #000;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* same as top buttons */
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

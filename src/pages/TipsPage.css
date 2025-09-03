@@ -1,0 +1,24 @@
+.tips-container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.tips-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tips-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.tips-item {
+  font-size: 18px;
+  margin-bottom: 12px;
+  text-align: left; /* keep tips aligned at corner */
+}

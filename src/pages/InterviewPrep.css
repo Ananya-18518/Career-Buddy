@@ -1,0 +1,65 @@
+/* InterviewPrep.css */
+
+.interview-container {
+  text-align: center; /* Center heading */
+  color: black; /* All text black */
+}
+
+.interview-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.interview-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Wrap for small screens */
+}
+
+.interview-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  color: black;
+}
+
+.interview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.interview-card h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.interview-card p {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.interview-btn {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f1f1f1;
+  font-size: 1rem;
+  cursor: pointer;
+  color: black;
+}
+
+.interview-btn:hover {
+  background: #ddd;
+}

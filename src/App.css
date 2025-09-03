@@ -1,0 +1,186 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* Body background - insta style gradient */
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+/* nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+} */
+
+/* Navbar buttons */
+/* nav button {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  margin: 0 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+} */
+
+/* nav button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+} */
+
+/* Dashboard card */
+/* .dashboard-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 80px auto;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+} */
+
+/* Dashboard title */
+/* .dashboard-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #ffeb3b;
+} */
+
+/* Logout button */
+/* .dashboard-card button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card button:hover {
+  transform: scale(1.05);
+} */ 
+
+/* Global Background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #f3e5f5); /* 👈 home page wali color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav button {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 0 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+nav button:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* Card Style (for login, register, dashboard etc.) */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 80px auto;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+}
+
+/* Buttons inside cards */
+.card button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card button:hover {
+  transform: scale(1.05);
+}
+
