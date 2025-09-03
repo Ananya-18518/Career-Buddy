@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Career-Buddy/static/css/main.6e75d176.css",
+    "main.js": "/Career-Buddy/static/js/main.6cadd9a5.js",
+    "static/js/453.a3c1d153.chunk.js": "/Career-Buddy/static/js/453.a3c1d153.chunk.js",
+    "index.html": "/Career-Buddy/index.html",
+    "main.6e75d176.css.map": "/Career-Buddy/static/css/main.6e75d176.css.map",
+    "main.6cadd9a5.js.map": "/Career-Buddy/static/js/main.6cadd9a5.js.map",
+    "453.a3c1d153.chunk.js.map": "/Career-Buddy/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e75d176.css",
+    "static/js/main.6cadd9a5.js"
+  ]
+}
