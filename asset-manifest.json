@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e75d176.css",
-    "main.js": "/static/js/main.dab09830.js",
-    "static/js/453.a3c1d153.chunk.js": "/static/js/453.a3c1d153.chunk.js",
-    "index.html": "/index.html",
-    "main.6e75d176.css.map": "/static/css/main.6e75d176.css.map",
-    "main.dab09830.js.map": "/static/js/main.dab09830.js.map",
-    "453.a3c1d153.chunk.js.map": "/static/js/453.a3c1d153.chunk.js.map"
+    "main.css": "/Career-Buddy/static/css/main.6e75d176.css",
+    "main.js": "/Career-Buddy/static/js/main.fd443114.js",
+    "static/js/453.a3c1d153.chunk.js": "/Career-Buddy/static/js/453.a3c1d153.chunk.js",
+    "index.html": "/Career-Buddy/index.html",
+    "main.6e75d176.css.map": "/Career-Buddy/static/css/main.6e75d176.css.map",
+    "main.fd443114.js.map": "/Career-Buddy/static/js/main.fd443114.js.map",
+    "453.a3c1d153.chunk.js.map": "/Career-Buddy/static/js/453.a3c1d153.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e75d176.css",
-    "static/js/main.dab09830.js"
+    "static/js/main.fd443114.js"
   ]
 }
