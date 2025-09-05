@@ -4,10 +4,16 @@
     <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script type="text/javascript">
-      var redirectTo = window.location.protocol + '//' + window.location.host + '/Career-Buddy/#' + window.location.pathname;
+      // Agar koi /login, /dashboard, /register pe jaye toh redirect ho jaye
+      var redirectTo =
+        window.location.protocol +
+        "//" +
+        window.location.host +
+        "/Career-Buddy?redirect=/" +
+        window.location.pathname.split("/Career-Buddy")[1];
+
       window.location.replace(redirectTo);
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
