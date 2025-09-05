@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ananya-18518.github.io/Career-Buddy",
+  
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
