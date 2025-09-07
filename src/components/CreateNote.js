@@ -54,7 +54,7 @@ const CreateNote = () => {
     if (!note.title || !note.content) return alert("Both fields required");
     try {
       const token = localStorage.getItem('token');
-      await axios.post('http://localhost:5000/api/notes', note, {
+      await axios.post('https://career-buddy-backend.onrender.com/api/notes', note, {
         headers: { Authorization: `Bearer ${token}` }
       });
       setNote({ title: '', content: '' });

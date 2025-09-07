@@ -10,7 +10,7 @@ function ResourceLibrary() {
     }, []);
 
     const fetchResources = async () => {
-        const res = await axios.get('http://localhost:5000/api/resources');
+        const res = await axios.get('https://career-buddy-backend.onrender.com/api/resources');
         setResources(res.data);
     };
 
@@ -20,13 +20,13 @@ function ResourceLibrary() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('http://localhost:5000/api/resources', formData);
+        await axios.post('https://career-buddy-backend.onrender.com/api/resources', formData);
         setFormData({ title: '', description: '', link: '', category: '' });
         fetchResources();
     };
 
     const deleteResource = async (id) => {
-        await axios.delete(`http://localhost:5000/api/resources${id}`);
+        await axios.delete(`https://career-buddy-backend.onrender.com/api/resources${id}`);
         fetchResources();
     };
 
