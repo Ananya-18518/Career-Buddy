@@ -11,7 +11,7 @@ const ViewNotes = () => {
   const fetchNotes = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('https://career-buddy-backend.onrender.com/api/notes', {
+      const res = await axios.get('https://career-buddy-backend-3.onrender.com/api/notes', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setNotes(res.data);
@@ -23,7 +23,7 @@ const ViewNotes = () => {
   const handleDelete = async (id) => {
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`https://career-buddy-backend.onrender.com/api/notes/${id}`, {
+      await axios.delete(`https://career-buddy-backend-3.onrender.com/api/notes/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       fetchNotes();
@@ -40,7 +40,7 @@ const ViewNotes = () => {
   const handleUpdate = async () => {
     try {
       const token = localStorage.getItem('token');
-      await axios.put(`https://career-buddy-backend.onrender.com/api/notes/${editing}`, updatedNote, {
+      await axios.put(`https://career-buddy-backend-3.onrender.com/api/notes/${editing}`, updatedNote, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setEditing(null);
